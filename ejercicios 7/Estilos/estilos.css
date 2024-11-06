@@ -1,0 +1,46 @@
+/*selector universal*/
+*{
+    background-color: rgb(84, 185, 163);
+}
+/*Selector de etiqueta*/
+h1{
+    background-color: rgb(89, 173, 89);
+}
+footer{
+    padding: ;
+    margin:auto;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: ridge;
+    border-radius: 15px;
+}
+/*Selector de clase*/
+p.fondoazul{
+    background-color: blue;
+}
+p.fondoverde{
+    background-color: lime;
+}
+p.fondorojo{
+    background-color: rgb(216, 81, 81);
+}
+p.fondorosa{
+    background-color: rgb(212, 112, 191);
+}
+p.fondonamorado{
+    background-color: rgb(114, 46, 114);
+}
+p.circulogris{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+}
+/*selectro de id*/
+p#unicomarron{
+    background-color: saddlebrown;
+}
+/*Selectores descendientes*/
+footer p {
+    color: red;
+}

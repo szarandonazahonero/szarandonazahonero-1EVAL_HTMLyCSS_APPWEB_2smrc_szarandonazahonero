@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <label for="">Nombre: <input type="text" minlength="3" maxlength="15"></label>
+        <br>
+        <label for="">Apellidos: <input type="text"></label>
+        <br>
+        <label for="">Edad: <input type="number" min="0" max="100"></label>
+        <br>
+        <label for="">Telefono: <input type="tel"></label>
+        <br>
+        <label for="">Color favorito: <input type="color" name="colorElegido" value="#749267"></label>
+        <br>
+        <label for="">Sitio web: <input type="url"></label>
+        <br>
+        <label for="">Email: <input type="email"></label>
+        <br>
+        <label for="">Contraseña: <input type="password"></label>
+        <br>
+        <label for=""><input type="checkbox" name="coche" id="coche"> ¿Coche?</label> 
+        <br>
+        <br>
+        <span>Genero:</span>
+        <br>
+        <label for=""><input type="radio" name="genero" id="" value="h">Hombre</label> 
+        <br>
+        <label for=""><input type="radio" name="genero" id="" value="m">Mujer</label>
+        <br>
+        <label for=""><input type="radio" name="genero" id="" value="o">Otros: 
+        </label>
+        <br>
+        <p>Mas informacion</p>
+        <label for="">
+            <textarea name="mas info" id="mas info" rows="5" cols="60"></textarea>
+        </label>
+        <p>Mes de nacimiento</p>
+        <label for="">
+            <select name="" id="">
+                <option value="Selecciona" selected disabled>Selecciona</option>
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+        </label> 
+        <p>Pais de nacimiento</p>
+        <label>
+            <select name="Paisnacimiento">
+                <optgroup label="Europa">
+                    <option value="Selecciona" selected disabled>Selecciona</option>
+                    <option value="">España</option>
+                    <option value="">Rumania</option>
+                    <option value="">Italia</option>
+                </optgroup>
+                <optgroup label="America">
+                    <option value="">Colombia</option>
+                    <option value="">Chile</option>
+                    <option value="">Argentina</option>
+                </optgroup>
+            </select>
+        </label>
+        <p>Valoracion del formulario</p>
+        <label for=""><input type="range" min="1" max="10" step="1"></label>
+        <br>
+        <label for="">1-2-3-4-5-6-7-8-9-10 
+            <br>
+        <p>Titulos de ingles</p>
+        <input type="range" name="titulos de ingles" min="1" max="6" list="rango ingles">
+        <datalist id="rango ingles">
+            <option value="1">A1</option>
+            <option value="2">A2</option>
+            <option value="3">B1</option>
+            <option value="4">B2</option>
+            <option value="5">C1</option>
+            <option value="6">C2</option>
+        </datalist>
+        <br>
+        <label for=""> A1 A2 B1 B2 C1 C2 
+        </label>
+        <p>Deporte</p>
+        <label>
+            <select name="Deportes" size="3" multiple>
+                <option value="1">Futbol</option>
+                <option value="2">Balonceso</option>
+                <option value="3">Boley</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset" value="Resetear">
+    </form>
+</body>
+</html>

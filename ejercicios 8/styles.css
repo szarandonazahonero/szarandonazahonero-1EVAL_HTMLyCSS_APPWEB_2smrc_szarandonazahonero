@@ -1,0 +1,20 @@
+body{
+    text-align: justify:
+}
+
+p.parrafo{
+  text-indent: 50px;
+letter-spacing: 10px;   
+}
+
+p.parrafo2{
+    text-align: right;
+}
+   p.parrafo3{
+       text-align:center; 
+       word-spacing, 35px;
+}
+
+span.Barcelona{
+  text-decoration: overline;    
+}
