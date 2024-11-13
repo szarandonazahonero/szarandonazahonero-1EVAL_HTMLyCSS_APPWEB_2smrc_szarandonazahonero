@@ -3,7 +3,7 @@
     background-color: rgb(84, 185, 163);
 }
 /*Selector de etiqueta*/
-h1{
+h1.pruebalocal{
     background-color: rgb(89, 173, 89);
 }
 footer{
