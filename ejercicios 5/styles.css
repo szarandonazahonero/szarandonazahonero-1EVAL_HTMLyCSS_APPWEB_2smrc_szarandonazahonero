@@ -7,6 +7,27 @@
 }
 
 .Inglés-Tecnico {
-    background-color:yellow;
+    background-color: yellow;
+
+}
+
+.SO {
+    background-color: blueviolet;
+
+}
+
+.SI {
+    background-color: greenyellow;
+
+}
+
+
+.Empresa {
+    background-color: rgb(255, 0, 0);
+
+}
+
+.Demas {
+    background-color: rgb(22, 113, 216);
 
 }
