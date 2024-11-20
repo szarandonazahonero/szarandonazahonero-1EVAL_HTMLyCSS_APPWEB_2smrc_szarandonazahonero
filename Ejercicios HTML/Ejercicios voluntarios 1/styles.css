@@ -1,4 +1,50 @@
-p.primera-linea {
-    background-color: rgb(50, 117, 50);
+p.Primera-linea{
+    color: black;
 }
+
+p.Segunda-linea{
+    font-style: italic;
+}
+
+p.Tercera-linea{
+    font-weight: bolder  
+}
+
+p.Cuarta-linea{
+    text-align: center;
+}
+
+h1.Quinta-linea{
+    text-align: center;
+}
+
+h2.Sexta-linea{
+    text-align: center;
+}
+
+h3.Septima-linea{
+    text-align: center;
+}
+
+
+h4.Octava-linea{
+    text-align: center;
+}
+
+h5.Novena-linea{
+    text-align: center;
+}
+
+h6.Decima-linea{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 
