@@ -1,0 +1,59 @@
+
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    background-color: rgb(59, 52, 52);
+    color: white;
+}
+
+img {
+    align-self: center;
+    width: 50%;
+}
+
+.nav-item{
+    padding: 10px 100px 10px 10px;
+}
+
+.container{
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#li1{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 15px;
+    background-color: white;
+    transform: rotate(-45deg);
+}
+
+#li2{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 15px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+
+#li3{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 15px;
+    background-color: white;
+}
+
+#li4{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 15px;
+    background-color: white;
+}
