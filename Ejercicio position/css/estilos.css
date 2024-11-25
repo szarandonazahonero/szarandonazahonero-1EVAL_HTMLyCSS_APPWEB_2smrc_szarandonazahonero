@@ -3,57 +3,96 @@ body{
     background-color: lightgrey;
 }
 
-nav{
-    display: flex;
-    position: sticky;
-    background-color: rgb(59, 52, 52);
-    color: white;
+.container {
+ background-color: lightgreen;
+ border-radius: 10px;
+ margin: 100px auto;
+ position relative;
+ height: 600px;
+ width: 80%;
 }
 
-img {
-    align-self: center;
-    width: 50%;
+.container nav {
+ background-color: #555555;
+ position: -webkit_sticky;
+ position: sticky;
+ top: 0px;
+ z-index: 100;
 }
 
-.nav-item{
-    padding: 10px 100px 10px 10px;
+.container nav div {
+ color: white#ffffff;   
+ display: inline-block;
+ pading: 20px;
+ width: 20%;
 }
 
-.container{
-    background-color: lightgreen;
+figure {
+ background-color; white;
+ border: 2px solid black;   
+ border-radius: 10px;
+ border-radius: 10px;
+ padding: 10 px;
+ text-align: center;
+ width: 25%;
+}
+
+figure img {
+  width: 90%;
+}
+
+figure:hover {
+ z-index: 20;
+}
+
+#li1 {
+ left: 10%;
+ position: absolute;
+ top: 200px;
+ -webkit-transform: rotate(-45deg);
+ transform: rotate(-45deg);  
+ z-index: 4;   
+}
+
+#li2 {
+ left: 250px;
+ position: absolute;
+ top: 200px;
+ -webkit-transform: rotate(45deg);
+ transfomr: rotate(45deg);
+ z-index: 3;
+}
+
+#li3 {
+ left: 400px;
+ position: absolute;
+ top: 150px;
+ -webkit-transform: rotate(-15deg);
+ transfomr: rotate(45deg);
+ z-index: 2;
+
+}
+
+#li4 {
+    left: 550px;
+    position:absolute;
+    top: 200px;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(15deg);
+    z-index: 1;   
+   }
+   
+   .fixed-sidebar {
+    border: 2px solid black;
+    border-top-right-radius: px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.8em;
+    height: 40%;
+    position: fixed;
     text-align: center;
-}
+    top: 30%;
+    width: 80px;
+   }
 
-#li1{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    padding: 15px;
-    background-color: white;
-    transform: rotate(-45deg);
-}
 
-#li2{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    padding: 15px;
-    background-color: white;
-    transform: rotate(45deg);
-}
 
-#li3{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    padding: 15px;
-    background-color: white;
-}
-
-#li4{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    padding: 15px;
-    background-color: white;
-}
