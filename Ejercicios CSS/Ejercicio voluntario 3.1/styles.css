@@ -1,0 +1,28 @@
+#elementoformulario {
+    /* Texto y color de fondo */
+    color: #999;
+    background-color: #FFF;
+    border: none;
+}
+
+input[type="text"] {
+    width: 140px;
+    background-color: #AAD5FF;
+    border: none;
+}
+
+input[type="password"] {
+    width: 140px;
+    background-color: #AAD5FF;
+    border: none;
+}
+
+input.text {
+    width: 300px;
+    background-color: yellow;
+}
+
+label {
+    color: #333;
+    text-align: left;
+}
