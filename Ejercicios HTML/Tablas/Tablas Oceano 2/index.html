@@ -1,0 +1,50 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+    <title>Tablas. Oceános</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body style="background-color: #cccccc">
+    <!-- Tabla con estilos. Esto no es necesario por ahora --> 
+	<table style="width: 40%; border: black 5 solid; text-align: center; ">
+      
+	  <caption style="caption-side: top; font-size:4; font-family:Arial Black; 
+	           color:blue; ">Tabla 1. Oceános</caption>
+	  
+	  <tr style="text-align: center; background-color: #0099CC;>
+		<td colspan="2" style="font-size: 4; font-family: Arial Black; color: white;" >
+		  Superficie de los oceános en millones de km<sup>2</sup>
+		</td>
+	  </tr>
+	  
+	  <!-- Agrupación de filas en una columna y en otra columna  -->
+	  <colgroup> 
+		<col span="1" style="background-color: yellow; ">
+		<col style="background-color: lightgreen; "> 
+	  </colgroup> 
+	  
+	  <!--  Tb. es posible sin span, pues solamente hay dos columnas.
+      <col style="background-color: yellow; >	 
+	  <col style="background-color: lightgreen; ">	
+	  -->
+	 
+	  <tr>
+		<td>Pacífico</td>
+		<td>179,7</td>
+	  </tr>
+	  <tr>
+		<td>Atlántico</td>
+		<td>106,1</td>
+	  </tr>
+	  <tr>
+		<td>Índico</td>
+		<td>74,9</td>
+	  </tr>
+	
+	</table>
+</body>
+</html>
