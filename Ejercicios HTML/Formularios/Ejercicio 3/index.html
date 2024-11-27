@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fútbol y Datos</h1>
+
+    <ul>
+        <li>Real Madrid → <a href="http://realmadrid.com" target="_blank">http://realmadrid.com</a></li>
+        <li>Google → <a href="http://google.com" target="_blank">http://google.com</a></li>
+        <li>Ronaldo → <a href="http://cronaldo7.es" target="_blank">http://cronaldo7.es</a></li>
+        <li>Formulario de empleados → <a href="formulario_empleados.html" target="_blank">el formulario de empleados del ejercicio anterior</a></li>
+    </ul>
+
+    <p>Además, la lista de opciones debe ser:</p>
+    <ul>
+        <li>Me la comentaron</li>
+        <li>Internet</li>
+        <li>Recomendada por un amigo</li>
+    </ul>
+
+
+    <form>
+        <label for="nombre">Tu nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        
+        <label for="clave">Tu clave:</label>
+        <input type="password" id="clave" name="clave"><br><br>
+
+        <p>Archivo a enviar:</p>
+        <input type="checkbox" id="manual_html" name="archivo" value="manual_html">
+        <label for="manual_html">Manual de HTML</label>
+        <input type="checkbox" id="programa_maths" name="archivo" value="programa_maths">
+        <label for="programa_maths">Programa de Maths</label>
+        <input type="checkbox" id="archivo_ayuda" name="archivo" value="archivo_ayuda">
+        <label for="archivo_ayuda">Archivo de Ayuda</label><br><br>
+
+        <p>Tu Edad:</p>
+        <input type="radio" id="menos_20" name="edad" value="menos_20">
+        <label for="menos_20">Menos de 20 años</label>
+        <input type="radio" id="entre_20_40" name="edad" value="entre_20_40">
+        <label for="entre_20_40">Entre 20 y 40 años</label>
+        <input type="radio" id="mas_40" name="edad" value="mas_40">
+        <label for="mas_40">Más de 40 años</label><br><br>
+
+        <label for="como_encontraste">¿Cómo encontraste mi página?</label>
+        <select id="como_encontraste" name="como_encontraste">
+            <option value="me_la_comentaron">Me la comentaron</option>
+            <option value="internet">Internet</option>
+            <option value="recomendada_amigo">Recomendada por un amigo</option>
+        </select><br><br>
+
+        <label for="comentarios">Tus comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50">... Comentarios ...</textarea><br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button><br><br>
+
+        <label for="sitio">Selecciona el sitio que quieres visitar:</label>
+        <select id="sitio" name="sitio">
+            <option value="real_madrid">Real Madrid</option>
+            <option value="google">Google</option>
+            <option value="ronaldo">Ronaldo</option>
+            <option value="formulario_empleados">Formulario de empleados</option>
+        </select><br><br>
+
+        <a href="#indice">Volver al índice</a>
+    </form>
+</body>
+</html>

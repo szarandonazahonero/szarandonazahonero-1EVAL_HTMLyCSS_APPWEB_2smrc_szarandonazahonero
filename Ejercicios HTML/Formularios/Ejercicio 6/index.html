@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <form action="receptor.html" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Control de Acceso</legend>
+                    Usuario: <input type="text" name="usuario" value="1daw"><br>
+                    Contraseña: <input type="password" name="contrasenia"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Personales:</legend>
+                    Tipo: <input type="radio" name="socio" value="alu" checked="">Alumno  
+                          <input type="radio" name="socio" value="prof">Profesor <br>
+                    Sexo: <input type="radio" name="genero" value="h">Masculino  
+                          <input type="radio" name="genero" value="m">Femenino <br>
+            </fieldset>
+            <fieldset>
+                <legend>Otros datos:</legend>
+                    Aficiones:<br>
+                        <input type="checkbox" name="afic[]" value="L" checked="">Lectura<br>  
+                        <input type="checkbox" name="afic[]" value="C" checked="">Cine<br>
+                        <input type="checkbox" name="afic[]" value="D">Deporte<br><br>
+            
+                    Observaciones:<br>
+                        <textarea name="comentario" rows="4" cols="50"> ... Comentarios ...</textarea><br><br>
+                    Fotografía:<br>
+                        <input type="file" name="foto"><br>
+            </fieldset>
+            
+            <input type="hidden" name="fecha" value="17/10/2019"><br>
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="limpiar campos" value="Limpiar">
+            <input type="button" name="salir" value="Salir" onclick="window.close();">
+        </form>
+</body>
+</html>

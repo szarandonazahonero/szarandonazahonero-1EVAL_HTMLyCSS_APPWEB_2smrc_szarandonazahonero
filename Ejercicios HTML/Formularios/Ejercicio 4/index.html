@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de datos</h1>
+    <form>
+        
+        <label for="nombre">Tu Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        
+        <label for="clave">Tu Clave:</label>
+        <input type="password" id="clave" name="clave"><br><br>
+
+        <p>Tu Edad:</p>
+        <input type="radio" id="menos_20" name="edad" value="menos_20">
+        <label for="menos_20">Menos de 20 años</label>
+        <input type="radio" id="mas_20" name="edad" value="mas_20">
+        <label for="mas_20">Más de 20 años</label><br><br>
+
+        <label for="aficion">¿Cuál es tu afición preferida los fines de semana?</label>
+        <select id="aficion" name="aficion">
+            <option value="salir_copas" selected>Salir de copas con los amigos</option>
+            <option value="leer_libro">Leer un libro</option>
+            <option value="hacer_deporte">Hacer deporte</option>
+            <option value="ir_cine">Ir al cine</option>
+        </select><br><br>
+
+        <p>¿Cuál es tu sistema operativo preferido?</p>
+        <input type="radio" id="windows" name="sistema_operativo" value="windows">
+        <label for="windows">Windows 10</label>
+        <input type="radio" id="linux" name="sistema_operativo" value="linux">
+        <label for="linux">Linux/Ubuntu</label>
+        <input type="radio" id="mac" name="sistema_operativo" value="mac">
+        <label for="mac">Mac</label><br><br>
+
+        <label for="apellido">Escribe tu apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <button type="submit">Enviar datos</button>
+    </form>
+</body>
+</html>
