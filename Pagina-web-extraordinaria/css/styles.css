@@ -1,0 +1,321 @@
+/* styles.css */
+
+/* Estilos generales */
+
+a:hover {
+    color: #e00;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.texto-centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/*Estilos cuerpo*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #e00;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos cabecera*/
+header {
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    color: #e00;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #e00;
+}
+
+/* Barra de navegación */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: max-content;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.nsvitem:hover{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+nav ul li a {
+    color: #e00;
+    text-decoration: none;
+    transition: color 0.3s;
+    font: bolder;
+    font-size: 20px;
+}
+
+.fijo {
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    background-color: #000;
+}
+
+.Logo-bienvenida img {
+    height: 60px; /* La imagen se ajusta al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen también sea circular */
+    object-fit: cover; /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
+}
+
+/* Estilos despleglables */
+.desplegable-secciones {
+    display: none;
+    position: fixed;
+    background-color: #000000;
+    z-index: 2;
+    color: white;
+    width: px;
+    left: px;
+    top: px;
+}
+
+.desplegable-secciones a {
+    padding: 2.5px;
+    display: block;
+    text-decoration: none;
+    color: lightblue;
+}
+
+ a:hover {
+    color: red;
+}
+
+/*Estilos Banner*/
+.hero {
+    height: 800px;
+    color: #e00;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    background-image: url("../imagenes/shutterstock_552746107.webp");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.hero h2{
+    color: #fff;
+    font-size: 60px;
+}
+
+.hero p{
+    color: #fff;
+    font-size: 40px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero .container {
+    position: relative;
+    max-width: 1000px;
+    z-index: 1;
+    margin: 0px 5%;
+    
+    
+}
+
+/*Estilos formaciones*/
+
+.formaciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    
+}
+
+
+.formaciones a {
+    text-decoration: none;
+    background-color: #000;
+}
+
+.formacion-card {
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    
+}
+
+.formacion-card a {
+    text-decoration: none;
+    
+}
+
+.formaciones {
+background-color: #000000;
+
+}
+
+.formacion-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    
+}
+
+.formacion-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: red;
+    
+}
+
+.formacion-card p {
+    font-size: 1rem;
+    color: white;
+}
+
+.formacion-card p:hover {
+    color: red;
+}
+
+.formacion-card:nth-child(odd) {
+    background-color: #000000;
+    
+}
+
+.formacion-card:nth-child(even) {
+    background-color: #000000;
+}
+
+/*Estilos pie de pagina*/
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    color: #e00;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: red;
+}
+
+footer p {
+    margin: 20px 0 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+/* Estilos About*/
+
+.about{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.about h2{
+    color: red;
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.about p:hover {
+    color: red;
+}
+
+body {
+    font-size: 16px;
+}
+
+
