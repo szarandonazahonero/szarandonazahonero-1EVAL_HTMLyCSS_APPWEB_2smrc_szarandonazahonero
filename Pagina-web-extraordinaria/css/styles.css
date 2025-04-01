@@ -63,39 +63,8 @@ nav ul li a {
     object-fit: cover; /* Asegura que la imagen se recorte para llenar el círculo sin distorsionarse */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Estilos despleglables */
+
 .desplegable-secciones {
     display: none;
     position: fixed;
@@ -117,6 +86,26 @@ nav ul li a {
  a:hover {
     color: red;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Estilos Banner*/
 .hero {
