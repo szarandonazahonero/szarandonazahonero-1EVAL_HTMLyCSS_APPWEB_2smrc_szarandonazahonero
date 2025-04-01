@@ -104,32 +104,6 @@ nav ul li a {
     display: flex;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero h2{
     color: #fff;
     font-size: 60px;
@@ -147,7 +121,7 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .hero .container {
@@ -155,10 +129,38 @@ nav ul li a {
     max-width: 1000px;
     z-index: 1;
     margin: 0px 5%;
-    
-    
-}
+    }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 /*Estilos formaciones*/
 
 .formaciones {
