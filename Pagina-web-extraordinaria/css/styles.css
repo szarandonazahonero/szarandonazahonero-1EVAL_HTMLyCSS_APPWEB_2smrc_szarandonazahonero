@@ -87,26 +87,6 @@ nav ul li a {
     color: red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Estilos Banner*/
 .hero {
     height: 800px;
@@ -123,6 +103,32 @@ nav ul li a {
     background-size: cover;
     display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero h2{
     color: #fff;
