@@ -2,6 +2,16 @@
 
 /* Estilos generales */
 
+.fondo {
+    background-color: #000000;
+}
+
+.menu-principal {
+    background-color: #000000;
+    color: #e00;
+    padding: 10px 0;
+    text-align: center;
+}
 .texto-centrado {
     display: flex;
     flex-direction: column;
