@@ -2,13 +2,14 @@
 
 /* Estilos generales */
 
+
 .fondo {
     background-color: #000000;
 }
 
 .menu-principal {
     background-color: #000000;
-    color: #e00;
+    color: rgb(18, 80, 24);
     padding: 10px 0;
     text-align: center;
 }
@@ -75,6 +76,7 @@ nav ul li a {
 
 /* Estilos despleglables */
 
+/* Estilos despleglables */
 .desplegable-secciones {
     display: none;
     position: fixed;
@@ -93,7 +95,7 @@ nav ul li a {
     color: lightblue;
 }
 
- a:hover {
+.desplegable-secciones a:hover {
     color: red;
 }
 
