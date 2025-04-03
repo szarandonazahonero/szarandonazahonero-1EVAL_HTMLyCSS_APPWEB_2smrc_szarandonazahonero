@@ -106,7 +106,7 @@ nav ul li a {
     text-align: center;
     padding: 0 20px;
     position: relative;
-    background-image: url("/Pagina-web-extraordinaria/Perfil-personal/imagenes/shutterstock_552746107.webp");
+    background-image: url("/Perfil-personal/imagenes/shutterstock_552746107.webp");
     background-attachment: fixed;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -141,36 +141,6 @@ nav ul li a {
     margin: 0px 5%;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 /*Estilos formaciones*/
 
 .formaciones {
@@ -371,5 +341,23 @@ body {
     padding: 20px 0; /* Espaciado superior e inferior */
   }
 
+ .Perfil h2{
+    text-align: center;
+    color: red;
+  }
 
+.Perfil p{
+    text-align: center;
+    color: white;
+  }
 
+  .center {
+    align-items: center;
+  }
+
+  .Perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
