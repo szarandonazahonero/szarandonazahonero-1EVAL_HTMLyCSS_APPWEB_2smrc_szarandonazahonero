@@ -106,7 +106,7 @@ nav ul li a {
     text-align: center;
     padding: 0 20px;
     position: relative;
-    background-image: url("../imagenes/shutterstock_552746107.webp");
+    background-image: url("/Pagina-web-extraordinaria/Perfil-personal/imagenes/shutterstock_552746107.webp");
     background-attachment: fixed;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -140,7 +140,37 @@ nav ul li a {
     z-index: 1;
     margin: 0px 5%;
     }
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 /*Estilos formaciones*/
 
 .formaciones {
@@ -151,6 +181,7 @@ nav ul li a {
     margin: 20px;
     
 }
+
 
 .formaciones a {
     text-decoration: none;
@@ -165,6 +196,16 @@ nav ul li a {
     text-align: center;
     width: 250px;
     
+}
+
+.formacion-card a {
+    text-decoration: none;
+    
+}
+
+.formaciones {
+background-color: #000000;
+
 }
 
 .formacion-card img {
@@ -189,6 +230,15 @@ nav ul li a {
     color: red;
 }
 
+.formacion-card:nth-child(odd) {
+    background-color: #000000;
+    
+}
+
+.formacion-card:nth-child(even) {
+    background-color: #000000;
+}
+
 /*Estilos pie de pagina*/
 footer {
     background-color: #000;
@@ -196,6 +246,16 @@ footer {
     padding: 20px 0;
 }
 
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.footer-column {
+    flex: 1;
+}
 
 .footer-column h3 {
     margin-bottom: 10px;
@@ -220,5 +280,96 @@ footer {
 .footer-column ul li a:hover {
     color: red;
 }
+
+footer p {
+    margin: 20px 0 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+/* Estilos About*/
+
+.about{
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.about h2{
+    color: red;
+}
+
+.about a {
+    text-decoration: none;
+}
+
+.about p:hover {
+    color: red;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+.carousel-container {
+    width: 100%; /* Ajusta el ancho según tu diseño */
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    animation: scroll 10s linear infinite;
+  }
+  
+  .carousel-track img {
+    width: 100%; /* Ajusta según tus necesidades */
+    flex-shrink: 0; /* Asegura que las imágenes no se reduzcan */
+  }
+  
+  /* Animación para desplazar las imágenes */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-194.3%); /* Mover hasta la mitad del contenido duplicado */
+    }
+  }
+  
+  .carousel-track {
+    display: flex;
+    animation: scroll 20s linear infinite; /* Incrementar el tiempo para recorrer el doble del contenido */
+  }
+  
+  .carousel-track img {
+    width: 100px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    margin-right: 60px; /* Espacio entre las imágenes */
+  }
+  
+  .carousel-container {
+    overflow: hidden;
+    width: 100%; /* Ajusta según tus necesidades */
+  }
+  
+  .carousel {
+    background: #333; /* Fondo del carrusel */
+    padding: 20px 0; /* Espaciado superior e inferior */
+  }
+
 
 
