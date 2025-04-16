@@ -1,197 +1,142 @@
 /* Tipo de box sizing */
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Fondo de la página */
 body {
-    background-image: url(/img/Fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(/img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
-    text-align: center;
-    /* Texto alineado al centro */
-    font-family: sans-serif;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
 
-    /* Fuente del título */
-
-
-    /* Sombra del título */
-    letter-spacing: 10px;
-    /* Espacio de las letras */
-    text-decoration: underline;
-    /* Texto con subrayado */
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
 }
 
 nav {
-    background-color: black;
-    /* Color de fondo del menú de navegación */
+  background-color: black;
 }
 
 nav div {
-    display: inline-block;
-    /* Letras inclinadas en horizontal */
-    padding: 20px;
-    /* Espacio dentre el contenido y su borde */
-    width: 24%;
-    /* Anchura */
-    color: white;
-    /* Color de la letra */
-    text-align: center;
-    /* Texto alineado al centro */
+  display: inline-block;
+  padding: 20px;
+  width: 24%;
+  color: white;
+  text-align: center;
 }
 
 div.menu a {
-    background-color: black;
-    /* Color de fondo */
-    color: white;
-    /* Color de la letra */
-    padding: 15px;
-    /* Espacio entre el contenido y su borde */
-    border-radius: 5px;
-    /* Bordes con curvas */
-    text-decoration: none;
-    /* Texto sin subrayado */
-    font-variant: small-caps;
-    /* Variación de la fuente */
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-variant: small-caps;
 }
 
 div.menu a:hover {
-    background-color: rgb(176, 185, 185) !important;
-    /* Color de fondo cuando el cursor está encima */
+  background-color: rgb(176, 185, 185) !important;
 }
 
 h1 {
-    text-align: center;
-    /* Texto alineado al centro */
-    text-transform: capitalize;
-    /* Primera letra mayúscula de cada palabra */
+  text-align: center;
+  text-transform: capitalize;
 }
 
 h2.tit-lateral {
-    text-align: center;
-    /* Texto alineado al centro */
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2980b9;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 aside {
-    background-color: black;
-    /* Color de fondo de la información lateral */
-    color: white;
-    /* Color de la letra */
-    float: left;
-    /* Flotante a la izquierda */
-    width: 20%;
-    /* Anchura */
-    height: 705px;
-    /* Altura */
-    margin-top: 30px;
-    /* Margen de arriba */
+  background-color: black;
+  color: white;
+  float: left;
+  width: 20%;
+  height: 705px;
+  margin-top: 30px;
 }
 
 .foto {
-    width: 200px;
-    /* Anchura de la foto */
-    margin-left: 35px;
-    /* Margen de la izquierda */
-    margin-bottom: 5px;
-    /* Margen de abajo */
+  width: 200px;
+  margin-left: 35px;
+  margin-bottom: 5px;
 }
 
 ul {
-    line-height: 200%;
-    /* Espacio entre lineas de las listas */
+  line-height: 200%;
 }
 
 main {
-    width: 75%;
-    /* Anchura */
-    float: left;
-    /* Flotante a la derecha */
-    margin-left: 50px;
-    /* Margen de la izquierda */
-    padding: 10px;
-    /* Espacio entre el contenido y su borde */
+  width: 75%;
+  float: left;
+  margin-left: 50px;
+  padding: 10px;
 }
 
 .container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 30px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  header h1 {
-    font-size: 2.5em;
-    color: #2c3e50;
-  }
-  
-  .subtitle {
-    color: #2980b9;
-    font-style: italic;
-    font-size: 1.2em;
-  }
-  
-  section {
-    margin-bottom: 30px;
-  }
-  
-  h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #2980b9;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-  }
-  
-  .item {
-    margin-bottom: 15px;
-  }
-  
-  .time-place {
-    font-weight: bold;
-    color: #555;
-  }
-  
-  .skills-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 10px;
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .skills-list li {
-    background-color: #ecf0f1;
-    padding: 10px;
-    border-radius: 6px;
-    text-align: center;
-  }
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.time-place {
+  font-weight: bold;
+  color: #555;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
 
 footer {
-    background-color: rgb(0, 0, 0);
-    /* Color de fondo del pie de página */
-    color: white;
-    /* Color de la letra */
-    clear: both;
-    /* Ningún objeto flotante a los lados */
-    text-align: center;
-    /* Texto alineado al centro */
-    padding: 10px;
-    /* Espacio entre el contenido y su borde */
+  background-color: rgb(0, 0, 0);
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 10px;
 }
 
 h3 {
-    margin-top: 0px;
-    /* Margen de arriba */
-    text-align: center;
-    /* Texto alineado al centro */
+  margin-top: 0px;
+  text-align: center;
 }

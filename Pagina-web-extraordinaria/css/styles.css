@@ -13,16 +13,12 @@ body {
 header {
     text-align: center;
     font-family: sans-serif;
-
-
-
     letter-spacing: 10px;
     text-decoration: underline;
 }
 
 nav {
     background-color: black;
-
 }
 
 nav div {
