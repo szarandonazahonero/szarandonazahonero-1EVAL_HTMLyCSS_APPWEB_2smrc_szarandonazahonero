@@ -14,9 +14,11 @@ body {
 header {
     text-align: center;
     /* Texto alineado al centro */
-    font: oblique 1.8em 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+
     /* Fuente del título */
-    text-shadow: 5px -5px rgb(221, 221, 221);
+
+
     /* Sombra del título */
     letter-spacing: 10px;
     /* Espacio de las letras */

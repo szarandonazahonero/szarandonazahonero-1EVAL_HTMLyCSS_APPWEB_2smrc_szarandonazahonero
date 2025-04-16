@@ -12,8 +12,10 @@ body {
 
 header {
     text-align: center;
-    font: oblique 1.8em 'Times New Roman', Times, serif;
-    text-shadow: 5px -5px rgb(221, 221, 221);
+    font-family: sans-serif;
+
+
+
     letter-spacing: 10px;
     text-decoration: underline;
 }
@@ -90,7 +92,7 @@ hr {
     float: left;
     margin-top: 10px;
     margin-bottom: 20px;
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border: 2px black solid;
 }
