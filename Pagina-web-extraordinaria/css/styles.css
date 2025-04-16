@@ -65,138 +65,90 @@ aside {
 .foto {
     width: 200px;
     margin-left: 35px;
-
     margin-bottom: 5px;
-    /* Margen de abajo */
 }
 
 ul {
     line-height: 200%;
-    /* Espacio entre lineas de las listas */
 }
 
 main {
     width: 75%;
-    /* Anchura */
     float: left;
-    /* Flotante a la derecha */
     margin-left: 50px;
-    /* Margen de la izquierda */
     padding: 10px;
-    /* Espacio entre el contenido y su borde */
 }
 
 hr {
     border: 0.1px black solid;
-    /* Caractrísticas del borde */
 }
 
 .caracteristicas {
     column-count: 3;
-    /* Número de columnas */
     width: 100%;
-    /* Anchura */
     height: 100%;
-    /* Altura */
     float: left;
-    /* Flotante a la izquierda */
     margin-top: 10px;
-    /* Margen de arriba */
     margin-bottom: 20px;
-    /* Margen de abajo */
     background-color: rgb(216, 216, 216);
-    /* Color de fondo de las características */
     padding: 10px;
-    /* Espacio entre el contenido y su borde */
     border: 2px black solid;
-    /* Características del borde */
 }
 
 p {
     text-indent: 25px;
-    /* Sangría del párrafo */
 }
 
 .center {
     text-align: center;
-    /* Texto alineado al centro */
 }
 
 .actividades {
     column-count: 2;
-    /* número de columnas */
     width: 100%;
-    /* Anchura */
     height: 100%;
-    /* Altura */
     float: left;
-    /* Flotante a la izquierda */
     margin-top: 10px;
-    /* Margen de arriba */
     margin-bottom: 20px;
-    /* Margen de abajo */
 }
 
 .bici img {
     width: 40%;
-    /* Anchura */
     height: 205px;
-    /* Altura */
     margin-top: 0px;
-    /* Margen de arriba */
     margin-left: 200px;
-    /* Margen de la izquierda */
     border: 2px black solid;
-    /* Características del borde */
 }
 
 .offsec img {
     width: 40%;
-    /* Anchura */
     height: 205px;
-    /* Altura */
     margin-top: 0px;
-    /* Margen de arriba */
     margin-left: 210px;
-    /* Margen de la izquierda */
     border: 2px black solid;
-    /* Características del borde */
 }
 
 .youtube-music {
     text-align: center;
-    /* Alineación del texto al centro */
 }
 
 img.youtube-music {
     width: 10%;
-    /* Anchura */
     height: 130px;
-    /* Altura */
     margin-top: 0px;
-    /* Margen de arriba */
     margin-left: px;
-    /* Margen de la izquierda */
     border: 2px black solid;
-    /* Características del borde */
 }
 
 footer {
     background-color: rgb(0, 0, 0);
-    /* Color de fondo del pie de página */
     color: white;
-    /* Color de la letra */
     clear: both;
-    /* Ningún objeto flotante a los lados */
     text-align: center;
-    /* Texto alineado al centro */
     padding: 10px;
-    /* Espacio entre el contenido y su borde */
 }
 
 h3 {
     margin-top: 0px;
-    /* Margen de arriba */
     text-align: center;
-    /* Texto alineado al centro */
 }
