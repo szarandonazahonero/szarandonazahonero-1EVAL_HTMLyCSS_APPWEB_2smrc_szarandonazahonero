@@ -6,7 +6,7 @@
     background-color: #000000;
 }
 
-.menu-principal {
+.menu-perfil {
     background-color: #000000;
     color: #e00;
     padding: 10px 0;
@@ -93,8 +93,13 @@ nav ul li a {
     color: lightblue;
 }
 
- a:hover {
+.desplegable-secciones a:hover {
     color: red;
+}
+
+.nsvitem:hover {
+    color: white;
+    background-color: red;
 }
 
 /*Estilos Banner*/
@@ -141,74 +146,40 @@ nav ul li a {
     margin: 0px 5%;
     }
 
-/*Estilos formaciones*/
 
-.formaciones {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-}
-
-
-.formaciones a {
-    text-decoration: none;
-    background-color: #000;
-}
-
-.formacion-card {
-    border: 1px solid #ff0000;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    text-align: center;
-    width: 250px;
-    
-}
-
-.formacion-card a {
-    text-decoration: none;
-    
-}
-
-.formaciones {
-background-color: #000000;
-
-}
-
-.formacion-card img {
-    max-width: 100%;
-    border-radius: 8px;
-    
-}
-
-.formacion-card h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: red;
-    
-}
-
-.formacion-card p {
-    font-size: 1rem;
-    color: white;
-}
-
-.formacion-card p:hover {
-    color: red;
-}
-
-.formacion-card:nth-child(odd) {
-    background-color: #000000;
-    
-}
-
-.formacion-card:nth-child(even) {
-    background-color: #000000;
-}
-
 /*Estilos pie de pagina*/
 footer {
     background-color: #000;

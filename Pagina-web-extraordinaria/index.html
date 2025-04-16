@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,106 +12,96 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/javascript.js" defer></script>
 </head>
-<body class="fondo">
-    <!-- Header -->
-    <header class="fijo">
-        <div class="container">
-            <h1>Proyecto de Aplicaciones Web</h1>
-            <nav>
-                <ul>
-                    <li><a class="nsvitem" href="/Pagina-web-extraordinaria/index.html">Inicio</a></li>
-                    <li class="menu-servicios">
-                        <a class="nsvitem" id="services">Secciones</a>
-                        <div class="desplegable-secciones" id="menu-servicios">
-                            <a target="_blank" href="/Pagina-web-extraordinaria/Perfil-personal/index.html">Perfil personal</a>
-                            <a target="_blank" href="/Pagina-web-extraordinaria/Formaciones/index.html">Formaciones</a>
-                            <a target="_blank" href="/Pagina-web-extraordinaria/Curriculum/index.html/">Curriculum</a>
-                            <a target="_blank" href="/Pagina-web-extraordinaria/Tiempo libre/index.html">Tiempo libre</a>
-                            <a target="_blank" href="/Pagina-web-extraordinaria/Formulario-de-valoración/index.html">Formulario de valoración</a>
-                        </div>
-                    </li>
-                    <li class="Logo-bienvenida"><img src="imagenes/IES-Villablanca-horizontal-color.png"></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- Home -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Proyecto final<br>de<br>Santiago Zarandona</h2>
-            <p>Aplicaciones Web
-            <p>SMR - Sistemas Microinformaticos y Redes</p>
-            <p>Instituto Villablanca</p>
-            <p>Turno de tarde</p>
-        </div>
-    </section>
-    <br>
-    <br>
-    <h1 class="menu-principal">Menu Principal</h1>
-    <br>
-    <div class="formaciones">
 
-        <!-- Primera fila -->
-        <a href="/Pagina-web-extraordinaria/Perfil-personal/index.html">
-            <div class="formacion-card">
-                <img src="./imagenes/circulo-azul-usuario-blanco_78370-4707.avif" alt="Formación 1">
-                <h3>Perfil personal</h3>
-                <p>Texto de prueba</p>
+<body>
+    <div class="contenedor">
+        <!-- Contenido del encabezado -->
+        <header>
+            <h1>Página Principal</h1>
+        </header>
+        <!-- Contenido del menú de navegación -->
+        <nav>
+            <div class="menu">
+                <a href="/Pagina-web-extraordinaria/index.html">Página Principal</a>
             </div>
-        </a>
-        <a href="/Pagina-web-extraordinaria/Formaciones/index.html">
-            <div class="formacion-card">
-                <img src="./imagenes/formación.jpg" alt="Formación 2">
-                <h3>Formaciones</h3>
-                <p>Texto de prueba</p>
+            <div class="menu">
+                <a href="/Pagina-web-extraordinaria/Curriculum/index.html">Currículum</a>
             </div>
-        </a>
-        <a href="/Pagina-web-extraordinaria/Formaciones/index.html">
-            <div class="formacion-card">
-                <img src="./imagenes/curriculum.jpg" alt="Formación 3">
-                <h3>Curriculum</h3>
-                <p>Texto de prueba</p>
+                <div class="menu">
+                <a href="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/index.html">Formulario</a>
             </div>
-        </a>
-        <a href="/Pagina-web-extraordinaria/Tiempo libre/index.html">
-            <div class="formacion-card">
-                <img src="./imagenes/libre.png" alt="Formación 4">
-                <h3>Tiempo libre</h3>
-                <p>Texto de prueba</p>
+            <div class="menu">
+                <a href="Sobre_mi_proyecto.html">Sobre mi proyecto</a>
             </div>
-        </a>
-        <a href="/Pagina-web-extraordinaria/Formulario-de-valoración/index.html">
-            <div class="formacion-card">
-                <img src="./imagenes/formulario.png" alt="Formación 5">
-                <h3>Formulario de valoracion</h3>
-                <p>Texto de prueba</p>
-            </div>
-        </a>
+        </nav>
+        <!-- Contenido de la información personal lateral -->
+        <aside>
+            <h1>Información Personal</h1>
+            <img class="foto" src="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/imagenes/foto.png" alt="foto_perfil">
+            <ul>
+                <li>Santiago Zarandona</li>
+                <li>Edad - 23 años</li>
+                <li>Fecha de nacimiento - 13/08/2001</li>
+                <li>Altura - 1.90</li>
+                <li>Vicalvaro Vladebernardo Madrid España</li>
+            </ul>
+        </aside>
+        <!-- Contenido de la información central de las características, las dos actividades y la aplicacción web más usada -->
+        <main>
+            <h2>Tres características sobre mí</h2>
+            <hr>
+            <section class="caracteristicas">
+                <article>
+                    <h3>Gracioso</h3>
+                    <p>Soy una persona con unas capacidades incansables de aprender en el mundo tecnologico y la
+                        seguridad informatica</p>
+                </article>
+                <article>
+                    <h3>Sociable</h3>
+                    <p>Me encanta socializar y hacer migas con otra gente de mi campo, es una manera de poder seguir
+                        aprendiendo a traves de la gente que estudia lo mismo que tu</p>
+                </article>
+                <article>
+                    <h3>Extrovertido</h3>
+                    <p>Me considero una persona extrovertida siempre dispuesto a conocer gente y abierto a seguir
+                        aprendiendo de manera divertida con gente.</p>
+                </article>
+            </section>
+            <h2>Dos actividades que no dejaría de hacer</h2>
+            <hr>
+            <section class="actividades">
+                <article class="bici">
+                    <h3>Hacer deporte</h3>
+                    <a href="https://www.youtube.com/watch?v=06qqlxvPa84&t=65s" target="_blank">
+                        <img src="/Pagina-web-extraordinaria/imagenes/marques-velo-haut-de-gamme-specialized-occasion_1024x1024.webp"
+                            alt="Bici" title="Bici">
+                    </a>
+                </article>
+                <article class="offsec">
+                    <h3>Estudiar ciberseguridad</h3>
+                    <a href="https://www.offsec.com" target="_blank">
+                        <img src="imagenes/offsec.png" alt="Offsec" title="Offsec">
+                    </a>
+                </article>
+            </section>
+            <h2 class="center">Aplicaciones que uso</h2>
+            <hr>
+            <section class="appweb">
+                <article class="youtube-music">
+                    <a href="https://music.youtube.com/" target="_blank"><img class="youtube-music" src="/Pagina-web-extraordinaria/imagenes/Youtube_Music_icon.webp"
+                            alt="Youtube-music" title="Youtube-music"></a>
+                            <br>
+                            <br>
+                    <p>La aplicación web que mas utilizo es <a href="https://music.youtube.com/">Youtube-music</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- Contenido del pie de página -->
+        <footer>
+            Proyecto de Aplicaciones Web de <a href="https://github.com/szarandonazahonero/szarandonazahonero-1EVAL_HTMLyCSS_APPWEB_2smrc_szarandonazahonero" target="_blank" title="Github">Santiago Zarandona</a>
+        </footer>
     </div>
-    </div>
-    </div>
-    </section>
-    <!-- Pie de página -->
-    <footer>
-        <div class="container texto-centrado">
-            <div class="footer-links">
-                <div class="footer-column">
-                    <br>
-                    <h1 class="menu-bajo">Menu</h1>
-                    <br>
-                    <ul>
-                        <li><a href="/Acerca-de/Buy-me-a-coffe/index.html">Perfil personal</a></li>
-                        <li><a href="/Acerca-de/Objetivos/index.html">Formaciones</a></li>
-                        <li><a href="/Acerca-de/Nosotros/index.html">Curriculum</a></li>
-                        <li><a href="/Acerca-de/Formaciones/index.html">Tiempo libre</a></li>
-                        <li><a href="/Acerca-de/Horario/index.html">Formulario de valoración</a></li>
-                    </ul>
-                </div>
-            </div>
-            <br>
-            <p>&copy; Proyecto final de aplicaciones web - Todos los derechos reservados</p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+
 </body>
+
 </html>

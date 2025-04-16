@@ -14,7 +14,10 @@ body {
 header {
     text-align: center;
     /* Texto alineado al centro */
-    font-family: sans-serif;
+    font: oblique 1.8em 'Times New Roman', Times, serif;
+    /* Fuente del título */
+    text-shadow: 5px -5px rgb(221, 221, 221);
+    /* Sombra del título */
     letter-spacing: 10px;
     /* Espacio de las letras */
     text-decoration: underline;
@@ -33,7 +36,7 @@ nav div {
     /* Espacio dentre el contenido y su borde */
     width: 24%;
     /* Anchura */
-    color: rgb(0, 0, 0);
+    color: white;
     /* Color de la letra */
     text-align: center;
     /* Texto alineado al centro */
@@ -55,7 +58,7 @@ div.menu a {
 }
 
 div.menu a:hover {
-    background-color: rgb(255, 0, 0) !important;
+    background-color: rgb(176, 185, 185) !important;
     /* Color de fondo cuando el cursor está encima */
 }
 
@@ -111,99 +114,65 @@ main {
     /* Espacio entre el contenido y su borde */
 }
 
-hr {
-    border: 0.1px black solid;
-    /* Caractrísticas del borde */
-}
-
-.caracteristicas {
-    column-count: 3;
-    /* Número de columnas */
-    width: 100%;
-    /* Anchura */
-    height: 100%;
-    /* Altura */
-    float: left;
-    /* Flotante a la izquierda */
-    margin-top: 10px;
-    /* Margen de arriba */
-    margin-bottom: 20px;
-    /* Margen de abajo */
-    background-color: rgb(216, 216, 216);
-    /* Color de fondo de las características */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+  }
+  
+  .subtitle {
+    color: #2980b9;
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .item {
+    margin-bottom: 15px;
+  }
+  
+  .time-place {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skills-list li {
+    background-color: #ecf0f1;
     padding: 10px;
-    /* Espacio entre el contenido y su borde */
-    border: 2px black solid;
-    /* Características del borde */
-}
-
-p {
-    text-indent: 25px;
-    /* Sangría del párrafo */
-}
-
-.center {
+    border-radius: 6px;
     text-align: center;
-    /* Texto alineado al centro */
-}
-.actividades {
-    column-count: 2;
-    /* número de columnas */
-    width: 100%;
-    /* Anchura */
-    height: 100%;
-    /* Altura */
-    float: left;
-    /* Flotante a la izquierda */
-    margin-top: 10px;
-    /* Margen de arriba */
-    margin-bottom: 20px;
-    /* Margen de abajo */
-}
-
-.bici img {
-    width: 40%;
-    /* Anchura */
-    height: 205px;
-    /* Altura */
-    margin-top: 0px;
-    /* Margen de arriba */
-    margin-left: 200px;
-    /* Margen de la izquierda */
-    border: 2px black solid;
-    /* Características del borde */
-}
-
-.offsec img {
-    width: 40%;
-    /* Anchura */
-    height: 205px;
-    /* Altura */
-    margin-top: 0px;
-    /* Margen de arriba */
-    margin-left: 210px;
-    /* Margen de la izquierda */
-    border: 2px black solid;
-    /* Características del borde */
-}
-
-.youtube-music {
-    text-align: center;
-    /* Alineación del texto al centro */
-}
-
-img.youtube-music {
-    width: 10%;
-    /* Anchura */
-    height: 130px;
-    /* Altura */
-    margin-top: 0px;
-    /* Margen de arriba */
-    margin-left: px;
-    /* Margen de la izquierda */
-    border: 2px black solid;
-    /* Características del borde */
-}
+  }
 
 footer {
     background-color: rgb(0, 0, 0);

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de AW</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/javascript.js" defer></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <!-- Contenido del encabezado -->
+        <header>
+            <h1>Página Principal</h1>
+        </header>
+        <!-- Contenido del menú de navegación -->
+        <nav>
+            <div class="menu">
+                <a href="/Pagina-web-extraordinaria/index.html">Página Principal</a>
+            </div>
+            <div class="menu">
+                <a href="/Pagina-web-extraordinaria/Curriculum/index.html">Currículum</a>
+            </div>
+            <div class="menu">
+                <a href="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/index.html">Formulario</a>
+            </div>
+            <div class="menu">
+                <a href="Sobre_mi_proyecto.html">Sobre mi proyecto</a>
+            </div>
+        </nav>
+        <!-- Contenido de la información personal lateral -->
+        <aside>
+            <h1>Información Personal</h1>
+            <img class="foto" src="imagenes/foto.png" alt="foto_perfil">
+            <ul>
+                <li>Santiago Zarandona</li>
+                <li>Edad - 23 años</li>
+                <li>Fecha de nacimiento - 13/08/2001</li>
+                <li>Altura - 1.90</li>
+                <li>Vicalvaro Vladebernardo Madrid España</li>
+            </ul>
+        </aside>
+        <!-- Contenido de la información central de las características, las dos actividades y la aplicacción web más usada -->
+        <main>
+
+            <form action="formulario.php" method="get">
+                <fieldset>
+                    <legend>
+                        <h2>Datos de Registro</h2>
+                    </legend>
+                    <ul>
+                        <li>
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo_usuario" size="40" required="">
+                        </li>
+                        <li>
+                            <label for="usuario">Usuario:</label>
+                            <input type="text" id="usuario" name="username" size="15" maxlength="15" required="">
+                        </li>
+                        <li>
+                            <label for="contraseña">Contraseña:</label>
+                            <input type="password" id="contraseña" name="contraseña_usuario" size="8" minlength="6"
+                                maxlength="15" required="">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h2>Datos Personales</h2>
+                    </legend>
+                    <ul>
+                        <li>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required="">
+                        </li>
+                        <li>
+                            <label for="apellidos">Apellidos:</label>
+                            <input type="text" id="apellidos" name="apellidos_usuario" size="30" required="">
+                        </li>
+                        <li>
+                            <label for="fecha">Fecha de nacimiento</label>
+                            <input type="date" id="fecha" name="nacimiento_usuario" required="">
+                        </li>
+                        <li>
+                            <label>Sexo:</label>
+                            <input type="radio" id="sexo1" name="hym" value="hombre" required=""><label
+                                for="sexo1">Hombre</label>
+                            <input type="radio" id="sexo2" name="hym" value="mujer" required=""><label
+                                for="sexo2">Mujer</label>
+                            <input type="radio" id="sexo3" name="hym" value="No_contestar" required=""><label
+                                for="sexo3">Otros</label>
+                        </li>
+                        <li>
+                            <label for="altura">Altura (en cm):</label>
+                            <input type="number" id="altura" name="altura" min="100" max="300" step="10">
+                        </li>
+                        <li>
+                            <label for="numero">Número de teléfono:</label>
+                            <input type="tel" id="numero" name="telefono_usuario" placeholder="teléfono móvil"
+                                required="">
+                        </li>
+                        <li>
+                            <label for="estado_civil">Estado civil:</label>
+                            <select name="Estado_civil" id="estado_civil">
+                                <option value="1">...</option>
+                                <option value="2">Soltero/a</option>
+                                <option value="3">Casado/a</option>
+                                <option value="4">Viudo/a</option>
+                                <option value="5">Prefiere no contestar</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="color">Color preferido:</label>
+                            <input type="color" id="color" name="color">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        <h2>Datos académicos</h2>
+                    </legend>
+                    <ul>
+                        <li>
+                            <label>Que título/s has obtenido:</label>
+                            <input type="checkbox" id="titulo1" name="Título1" value="Secundaria"><label
+                                for="titulo1">Secundaria</label>
+                            <input type="checkbox" id="titulo2" name="Título2" value="Bachillerato"><label
+                                for="titulo2">Bachillerato</label>
+                            <input type="checkbox" id="titulo3" name="Título3" value="Técnico de Grado Medio"><label
+                                for="titulo3">Técnico de Grado Medio</label>
+                            <input type="checkbox" id="titulo4" name="Título4" value="Técnico de Grado Superior"><label
+                                for="titulo4">Técnico de Grado Superior</label>
+                            <input type="checkbox" id="titulo5" name="Título5" value="Universitario"><label
+                                for="titulo5">Universitario</label>
+                        </li>
+                        <li>
+                            <label for="github">En caso de tener cuenta de Github, poner URL del perfil con sus
+                                repositorios:</label>
+                            <input type="url" id="github" size="50">
+                        </li>
+                        <li>
+                            <label>Indique si habla otros idioma:</label><input type="text" placeholder="Escriba que idiomas habla">
+                        </li>
+                        <li>
+                            <label>Nivel de ingles</label>
+                            <br>
+                            <input type="range" name="titulos de ingles" min="1" max="6" list="rango ingles">
+                            <datalist id="rango ingles">
+                                <option value="1">A1</option>
+                                <option value="2">A2</option>
+                                <option value="3">B1</option>
+                                <option value="4">B2</option>
+                                <option value="5">C1</option>
+                                <option value="6">C2</option>
+                            </datalist>
+                            <br>
+                            <label for=""> A1 A2 B1 B2 C1 C2
+                            </label>
+                        </li>
+                        <li>
+                            <label for="habilidades">Describe tus habilidades brevemente:</label><br>
+                            <textarea id="habilidades" rows="6" cols="50" required=""></textarea>
+                        </li>
+                    </ul>
+                </fieldset>
+                <section class="botones">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Valores por defecto">
+                </section>
+            </form>
+</body>
+
+</html>

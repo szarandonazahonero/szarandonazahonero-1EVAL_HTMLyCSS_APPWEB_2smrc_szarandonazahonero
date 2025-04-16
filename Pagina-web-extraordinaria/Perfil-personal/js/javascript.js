@@ -1,6 +1,6 @@
 //Logica servicios
-let servicios = document.getElementById('services');
-let menuservicios = document.getElementById('menu-servicios');
+let servicios = document.getElementById('secciones');
+let menuservicios = document.getElementById('menu-secciones');
 
 servicios.addEventListener('mouseover', function () {
     menuservicios.style.display = 'block';
