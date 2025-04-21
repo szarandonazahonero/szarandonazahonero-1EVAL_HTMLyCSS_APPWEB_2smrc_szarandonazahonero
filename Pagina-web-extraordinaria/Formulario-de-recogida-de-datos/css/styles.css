@@ -64,7 +64,7 @@ ul{
     line-height: 200%; /* Espacio entre lineas de las listas */
 }
 main{
-    background-color: rgb(181, 183, 184); /* Color de fondo del formulario */
+    background-color: rgb(255, 255, 255); /* Color de fondo del formulario */
     float: left; /* Flotante a la izquierda */
     width: 77%; /* Anchura */
     height: 1400px; /* Altura */
