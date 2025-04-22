@@ -1,0 +1,146 @@
+/* Tipo de box sizing */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Fondo de la página */
+body {
+  background-image: url(/img/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+nav {
+  background-color: black;
+}
+
+nav div {
+  display: inline-block;
+  padding: 20px;
+  width: 24%;
+  color: white;
+  text-align: center;
+}
+
+div.menu a {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+div.menu a:hover {
+  background-color: rgb(176, 185, 185) !important;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h2.tit-lateral {
+  text-align: center;
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2980b9;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+aside {
+  background-color: black;
+  color: white;
+  float: left;
+  width: 20%;
+  height: 705px;
+  margin-top: 30px;
+}
+
+.foto {
+  width: 200px;
+  margin-left: 35px;
+  margin-bottom: 5px;
+}
+
+ul {
+  line-height: 200%;
+}
+
+main {
+  width: 75%;
+  float: left;
+  margin-left: 50px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.item {
+  margin-bottom: 15px;
+}
+
+.time-place {
+  font-weight: bold;
+  color: #555;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 10px;
+}
+
+h3 {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
