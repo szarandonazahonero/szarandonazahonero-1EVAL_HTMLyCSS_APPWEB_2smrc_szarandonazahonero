@@ -45,10 +45,16 @@ div.menu a:hover {
 h1 {
     text-align: center;
     text-transform: capitalize;
+    font-family: sans-serif;
 }
 
 h2.tit-lateral {
     text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
 }
 
 aside {
