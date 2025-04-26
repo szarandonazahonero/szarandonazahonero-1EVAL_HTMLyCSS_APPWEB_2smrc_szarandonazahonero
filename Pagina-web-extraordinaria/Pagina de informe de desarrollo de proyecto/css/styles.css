@@ -138,12 +138,16 @@ section {
   text-align: center; /* Texto centrado */
 }
 
-/* Layout fijo */
+/* Estilo imagen layout */
 .layout {
-  position: fixed; /* Posición fija */
-  width: 50%; /* Ancho al 50% */
-  height: 50%; /* Altura al 50% */
-  right: 300px; /* Separación desde la derecha */
+  width: 50%;
+  margin: 50px 350px;
+}
+
+/* Estilos video */
+video {
+  width: 50%;
+  margin: 0px 350px;
 }
 
 /* Estilo del pie de página */
