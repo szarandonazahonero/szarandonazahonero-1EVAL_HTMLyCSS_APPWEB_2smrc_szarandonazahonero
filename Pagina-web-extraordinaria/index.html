@@ -1,38 +1,46 @@
 <!-- Santiago Zarandona Zahonero -->
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html> <!-- Definimos el tipo de documento HTML5 -->
+<html lang="es"> <!-- Definimos el idioma del documento -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto de AW</title>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que se vea bien en móviles -->
+    <title>Proyecto de AW</title> <!-- Título de la pestaña del navegador -->
+    
+    <!-- Enlaces a hojas de estilos -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/javascript.js" defer></script>
+    
+    <!-- Enlace al archivo JavaScript -->
+    <script src="js/javascript.js" defer></script> <!-- Defer para cargarlo después del HTML -->
 </head>
 
 <body>
-    <div class="contenedor">
+    <div class="contenedor"> <!-- Contenedor principal de la página -->
+
+        <!-- Menú de navegación -->
         <nav>
             <div class="menu">
-                <a href="/Pagina-web-extraordinaria/index.html">Página Principal</a>
+                <a href="/Pagina-web-extraordinaria/index.html">Página Principal</a> <!-- Enlace a la página principal -->
             </div>
             <div class="menu">
-                <a href="/Pagina-web-extraordinaria/Curriculum/index.html">Currículum</a>
-            </div>
-                <div class="menu">
-                <a href="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/index.html">Formulario</a>
+                <a href="/Pagina-web-extraordinaria/Curriculum/index.html">Currículum</a> <!-- Enlace al currículum -->
             </div>
             <div class="menu">
-                <a href="/Pagina-web-extraordinaria/Pagina de informe de desarrollo de proyecto/index.html">Sobre mi proyecto</a>
+                <a href="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/index.html">Formulario</a> <!-- Enlace al formulario -->
+            </div>
+            <div class="menu">
+                <a href="/Pagina-web-extraordinaria/Pagina de informe de desarrollo de proyecto/index.html">Sobre mi proyecto</a> <!-- Enlace sobre el proyecto -->
             </div>
         </nav>
+
+        <!-- Barra lateral (aside) con información personal -->
         <aside>
-            <h1>Información Personal</h1>
-            <img class="foto" src="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/imagenes/foto.png" alt="foto_perfil">
-            <ul>
+            <h1>Información Personal</h1> <!-- Título de la sección -->
+            <img class="foto" src="/Pagina-web-extraordinaria/Formulario-de-recogida-de-datos/imagenes/foto.png" alt="foto_perfil"> <!-- Foto de perfil -->
+            <ul> <!-- Lista de datos personales -->
                 <li>Santiago Zarandona</li>
                 <li>Edad - 23 años</li>
                 <li>Fecha de nacimiento - 13/08/2001</li>
@@ -40,60 +48,76 @@
                 <li>Vicalvaro Vladebernardo Madrid España</li>
             </ul>
         </aside>
+
+        <!-- Contenido principal -->
         <main>
+
+            <!-- Sección de características personales -->
             <h2>Tres características sobre mí</h2>
-            <hr>
-            <table class="caracteristicas">
+            <hr> <!-- Línea separadora -->
+            <table class="caracteristicas"> <!-- Tabla para mostrar características -->
                 <th>
                     <h3>Gracioso</h3>
-                    <p>Soy una persona con unas capacidades incansables de aprender en el mundo tecnologico y la
-                        seguridad informatica</p>
+                    <p>Soy una persona con unas capacidades incansables de aprender en el mundo tecnológico y la seguridad informática</p>
                 </th>
                 <th>
                     <h3>Sociable</h3>
-                    <p>Me encanta socializar y hacer migas con otra gente de mi campo, es una manera de poder seguir
-                        aprendiendo a traves de la gente que estudia lo mismo que tu</p>
+                    <p>Me encanta socializar y aprender a través de otras personas de mi mismo campo</p>
                 </th>
                 <th>
                     <h3>Extrovertido</h3>
-                    <p>Me considero una persona extrovertida siempre dispuesto a conocer gente y abierto a seguir
-                        aprendiendo de manera divertida con gente.</p>
+                    <p>Me considero una persona extrovertida, abierta a aprender y conocer gente</p>
                 </th>
             </table>
+
+            <!-- Sección de actividades favoritas -->
             <h2>Dos actividades que no dejaría de hacer</h2>
-            <hr>
+            <hr> <!-- Línea separadora -->
             <section class="actividades">
+                
+                <!-- Primer artículo: deporte -->
                 <article class="bici">
                     <h3>Hacer deporte</h3>
                     <a href="https://www.youtube.com/watch?v=06qqlxvPa84&t=65s" target="_blank">
                         <img src="/Pagina-web-extraordinaria/imagenes/marques-velo-haut-de-gamme-specialized-occasion_1024x1024.webp"
-                            alt="Bici" title="Bici">
+                            alt="Bici" title="Bici"> <!-- Imagen de deporte enlazada a un vídeo -->
                     </a>
                 </article>
+
+                <!-- Segundo artículo: ciberseguridad -->
                 <article class="offsec">
                     <h3>Estudiar ciberseguridad</h3>
                     <a href="https://www.offsec.com" target="_blank">
-                        <img src="imagenes/offsec.png" alt="Offsec" title="Offsec">
+                        <img src="imagenes/offsec.png" alt="Offsec" title="Offsec"> <!-- Imagen de OffSec enlazada -->
                     </a>
                 </article>
+
             </section>
+
+            <!-- Sección de aplicación web favorita -->
             <h2 class="center">Aplicaciones que uso</h2>
-            <hr>
+            <hr> <!-- Línea separadora -->
             <section class="appweb">
                 <article class="youtube-music">
-                    <a href="https://music.youtube.com/" target="_blank"><img class="youtube-music" src="/Pagina-web-extraordinaria/imagenes/Youtube_Music_icon.webp"
-                            alt="Youtube-music" title="Youtube-music"></a>
-                            <br>
-                            <br>
-                    <p>La aplicación web que mas utilizo es <a href="https://music.youtube.com/">Youtube-music</a></p>
+                    <a href="https://music.youtube.com/" target="_blank">
+                        <img class="youtube-music" src="/Pagina-web-extraordinaria/imagenes/Youtube_Music_icon.webp"
+                            alt="Youtube-music" title="Youtube-music"> <!-- Imagen de Youtube Music -->
+                    </a>
+                    <br><br> <!-- Saltos de línea -->
+                    <p>La aplicación web que más utilizo es <a href="https://music.youtube.com/">Youtube-music</a></p> <!-- Descripción -->
                 </article>
             </section>
-        </main>
-        <footer>
-            Proyecto de Aplicaciones Web de <a href="https://github.com/szarandonazahonero/szarandonazahonero-1EVAL_HTMLyCSS_APPWEB_2smrc_szarandonazahonero" target="_blank" title="Github">Santiago Zarandona</a>
-        </footer>
-    </div>
 
+        </main>
+
+        <!-- Pie de página -->
+        <footer>
+            Proyecto de Aplicaciones Web de 
+            <a href="https://github.com/szarandonazahonero/szarandonazahonero-1EVAL_HTMLyCSS_APPWEB_2smrc_szarandonazahonero" 
+               target="_blank" title="Github">Santiago Zarandona</a> <!-- Enlace al repositorio de GitHub -->
+        </footer>
+
+    </div> <!-- Fin del contenedor principal -->
 </body>
 
 </html>

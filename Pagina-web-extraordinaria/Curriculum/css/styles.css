@@ -1,4 +1,4 @@
-/* Tipo de box sizing */
+/* Tipo de box sizing: incluye padding y borde dentro del ancho y alto */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -6,136 +6,157 @@
 
 /* Fondo de la página */
 body {
-  background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp); /* Imagen de fondo */
+  background-repeat: no-repeat; /* No repetir imagen */
+  background-size: 100% 100%; /* Ajustar imagen al 100% de ancho y alto */
 }
 
+/* Estilos para el encabezado */
 header {
-  text-align: center;
-  font-family: sans-serif;
-  letter-spacing: 10px;
-  text-decoration: underline;
-  margin-bottom: 30px;
+  text-align: center; /* Alinear texto al centro */
+  font-family: sans-serif; /* Tipografía sans-serif */
+  letter-spacing: 10px; /* Espaciado entre letras */
+  text-decoration: underline; /* Subrayado */
+  margin-bottom: 30px; /* Margen inferior */
 }
 
+/* Estilos para el h1 dentro del header */
 header h1 {
-  font-size: 2.5em;
-  color: #2c3e50;
+  font-size: 2.5em; /* Tamaño de fuente grande */
+  color: #2c3e50; /* Color azul oscuro */
 }
 
+/* Estilos para la barra de navegación */
 nav {
-  background-color: black;
+  background-color: black; /* Fondo negro */
 }
 
+/* Estilos para los divs dentro del nav */
 nav div {
-  display: inline-block;
-  padding: 20px;
-  width: 24%;
-  color: white;
-  text-align: center;
+  display: inline-block; /* Mostrar en línea */
+  padding: 20px; /* Espaciado interno */
+  width: 24%; /* Ancho de cada div */
+  color: white; /* Color de texto blanco */
+  text-align: center; /* Centrado del texto */
 }
 
+/* Estilos para los enlaces dentro del menú */
 div.menu a {
-  background-color: black;
-  color: white;
-  padding: 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-variant: small-caps;
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 15px; /* Relleno interno */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado */
+  font-variant: small-caps; /* Minúsculas en forma de mayúsculas */
 }
 
+/* Estilos cuando se pasa el ratón por encima de un enlace */
 div.menu a:hover {
-  background-color: red;
+  background-color: red; /* Fondo rojo en hover */
 }
 
+/* Estilos para h1 generales */
 h1 {
-  text-align: center;
-  text-transform: capitalize;
+  text-align: center; /* Centrado */
+  text-transform: capitalize; /* Primera letra en mayúscula */
 }
 
+/* Estilos para h2 de clase tit-lateral */
 h2.tit-lateral {
-  text-align: center;
+  text-align: center; /* Centrado */
 }
 
+/* Estilos generales para h2 */
 h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #2980b9;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
+  color: #2c3e50; /* Color azul oscuro */
+  border-bottom: 2px solid #2980b9; /* Línea inferior azul */
+  margin-bottom: 10px; /* Margen inferior */
+  padding-bottom: 5px; /* Espaciado bajo el texto */
 }
 
+/* Estilos para la barra lateral (aside) */
 aside {
-  background-color: black;
-  color: white;
-  float: left;
-  width: 20%;
-  height: 705px;
-  margin-top: 30px;
-  position: sticky;
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  float: left; /* Flotar a la izquierda */
+  width: 20%; /* Ancho del aside */
+  height: 705px; /* Altura fija */
+  margin-top: 30px; /* Margen superior */
+  position: sticky; /* Se queda fijo al hacer scroll */
 }
 
+/* Estilos para las imágenes dentro del aside */
 .foto {
-  width: 200px;
-  margin-left: 35px;
-  margin-bottom: 5px;
+  width: 200px; /* Ancho fijo */
+  margin-left: 35px; /* Margen izquierdo */
+  margin-bottom: 5px; /* Margen inferior */
 }
 
+/* Estilos para las listas */
 ul {
-  line-height: 200%;
+  line-height: 200%; /* Espaciado vertical entre líneas */
 }
 
+/* Estilos para el contenido principal */
 main {
-  width: 75%;
-  float: left;
-  margin-left: 50px;
-  padding: 10px;
+  width: 75%; /* Ancho del main */
+  float: left; /* Flotar a la izquierda */
+  margin-left: 50px; /* Margen izquierdo */
+  padding: 10px; /* Relleno interno */
 }
 
+/* Estilos para un contenedor centrado */
 .container {
-  max-width: 800px;
-  margin: auto;
-  padding: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  max-width: 800px; /* Ancho máximo */
+  margin: auto; /* Centrado automático */
+  padding: 30px; /* Relleno interno */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border-radius: 10px; /* Bordes redondeados */
 }
 
+/* Estilos para secciones */
 section {
-  margin-bottom: 30px;
+  margin-bottom: 30px; /* Margen inferior */
 }
 
+/* Estilos para ítems individuales */
 .item {
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* Margen inferior */
 }
 
+/* Estilos para texto de tiempo y lugar */
 .time-place {
-  font-weight: bold;
-  color: #555;
+  font-weight: bold; /* Negrita */
+  color: #555; /* Color gris oscuro */
 }
 
+/* Estilos para la lista de habilidades */
 .skills-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 10px;
-  list-style: none;
-  padding-left: 0;
+  display: grid; /* Usar grid */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Columnas automáticas de mínimo 180px */
+  gap: 10px; /* Separación entre elementos */
+  list-style: none; /* Sin viñetas */
+  padding-left: 0; /* Sin padding izquierdo */
 }
 
+/* Estilos para cada habilidad en la lista */
 .skills-list li {
-  padding: 10px;
-  border-radius: 6px;
-  text-align: center;
+  padding: 10px; /* Relleno interno */
+  border-radius: 6px; /* Bordes redondeados */
+  text-align: center; /* Centrado */
 }
 
+/* Estilos para el pie de página */
 footer {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  clear: both;
-  text-align: center;
-  padding: 10px;
+  background-color: rgb(0, 0, 0); /* Fondo negro */
+  color: white; /* Texto blanco */
+  clear: both; /* Limpiar flotados */
+  text-align: center; /* Centrado */
+  padding: 10px; /* Relleno interno */
 }
 
+/* Estilos para subtítulos h3 */
 h3 {
-  margin-top: 0px;
-  text-align: center;
+  margin-top: 0px; /* Sin margen superior */
+  text-align: center; /* Centrado */
 }

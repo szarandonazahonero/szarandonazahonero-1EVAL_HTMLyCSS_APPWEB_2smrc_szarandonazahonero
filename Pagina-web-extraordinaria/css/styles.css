@@ -1,159 +1,183 @@
+/* Aplicamos box-sizing para incluir padding y border dentro del ancho y alto */
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-
+/* Estilo del fondo del body */
 body {
-    background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp); /* Imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-size: 100% 100%; /* Imagen ajustada al 100% del ancho y alto */
 }
 
+/* Estilo del header */
 header {
-    text-align: center;
-    font-family: sans-serif;
-    letter-spacing: 10px;
-    text-decoration: underline;
+    text-align: center; /* Alinear texto al centro */
+    font-family: sans-serif; /* Fuente sans-serif */
+    letter-spacing: 10px; /* Espaciado entre letras */
+    text-decoration: underline; /* Subrayado */
 }
 
+/* Fondo del menú de navegación */
 nav {
-    background-color: black;
+    background-color: black; /* Color negro de fondo */
 }
 
+/* Estilo de los divs dentro del nav */
 nav div {
-    display: inline-block;
-    padding: 20px;
-    width: 24%;
-    color: rgb(0, 0, 0);
-    text-align: center;
+    display: inline-block; /* Mostrar los divs en línea */
+    padding: 20px; /* Espaciado interno */
+    width: 24%; /* Ancho del 24% */
+    color: rgb(0, 0, 0); /* Color de texto negro */
+    text-align: center; /* Alinear texto al centro */
 }
 
+/* Estilo de los enlaces dentro de la clase menu */
 div.menu a {
-    background-color: black;
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-variant: small-caps;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-variant: small-caps; /* Letras en minúscula pero aparentan mayúscula */
 }
 
+/* Cambio de color al pasar el ratón sobre los enlaces */
 div.menu a:hover {
-    background-color: red;
+    background-color: red; /* Fondo rojo al hacer hover */
 }
 
+/* Estilo del título principal */
 h1 {
-    text-align: center;
-    text-transform: capitalize;
-    font-family: sans-serif;
+    text-align: center; /* Alinear al centro */
+    text-transform: capitalize; /* Capitalizar palabras */
+    font-family: sans-serif; /* Fuente sans-serif */
 }
 
+/* Estilo de subtítulos laterales */
 h2.tit-lateral {
-    text-align: center;
-    font-family: sans-serif;
+    text-align: center; /* Alinear texto al centro */
+    font-family: sans-serif; /* Fuente sans-serif */
 }
 
+/* Estilo del texto de párrafos */
 p {
-    font-family: sans-serif;
+    font-family: sans-serif; /* Fuente sans-serif */
 }
 
+/* Estilo del aside (barra lateral) */
 aside {
-    background-color: black;
-    color: white;
-    float: left;
-    width: 20%;
-    height: 705px;
-    margin-top: 30px;
-    position: sticky;
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    float: left; /* Flotar a la izquierda */
+    width: 20%; /* Ancho del 20% */
+    height: 705px; /* Altura fija */
+    margin-top: 30px; /* Margen superior */
+    position: sticky; /* Posición fija al hacer scroll */
 }
 
+/* Estilo de las imágenes dentro del aside */
 .foto {
-    width: 200px;
-    margin-left: 35px;
-    margin-bottom: 5px;
+    width: 200px; /* Ancho de la imagen */
+    margin-left: 35px; /* Margen izquierdo */
+    margin-bottom: 5px; /* Margen inferior */
 }
 
+/* Estilo de las listas */
 ul {
-    line-height: 200%;
+    line-height: 200%; /* Espaciado entre líneas */
 }
 
+/* Estilo del contenido principal */
 main {
-    width: 75%;
-    float: left;
-    margin-left: 50px;
-    padding: 10px;
+    width: 75%; /* Ancho del 75% */
+    float: left; /* Flotar a la izquierda */
+    margin-left: 50px; /* Margen izquierdo */
+    padding: 10px; /* Relleno interno */
 }
 
+/* Estilo de las líneas horizontales */
 hr {
-    border: 0.1px black solid;
+    border: 0.1px black solid; /* Borde negro delgado */
 }
 
+/* Estilo de la sección de características */
 .caracteristicas {
-    column-count: 3;
-    width: 100%;
-    height: 100%;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    background-color: rgb(255, 255, 255);
-    padding: 10px;
-    border: 2px black solid;
+    column-count: 3; /* Tres columnas */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    float: left; /* Flotar a la izquierda */
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
+    padding: 10px; /* Relleno interno */
+    border: 2px black solid; /* Borde negro */
 }
 
+/* Sangría de los párrafos */
 p {
-    text-indent: 25px;
+    text-indent: 25px; /* Sangría de primera línea */
 }
 
+/* Clase para centrar elementos */
 .center {
-    text-align: center;
+    text-align: center; /* Centrar texto */
 }
 
+/* Estilo de la sección de actividades */
 .actividades {
-    column-count: 2;
-    width: 100%;
-    height: 100%;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    column-count: 2; /* Dos columnas */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Alto completo */
+    float: left; /* Flotar a la izquierda */
+    margin-top: 10px; /* Margen superior */
+    margin-bottom: 20px; /* Margen inferior */
 }
 
+/* Estilo para imágenes de bicicleta */
 .bici img {
-    width: 40%;
-    height: 205px;
-    margin-top: 0px;
-    margin-left: 200px;
-    border: 2px black solid;
+    width: 40%; /* Ancho del 40% */
+    height: 205px; /* Altura fija */
+    margin-top: 0px; /* Sin margen superior */
+    margin-left: 200px; /* Margen izquierdo */
+    border: 2px black solid; /* Borde negro */
 }
 
+/* Estilo para imágenes de offsec */
 .offsec img {
-    width: 40%;
-    height: 205px;
-    margin-top: 0px;
-    margin-left: 210px;
-    border: 2px black solid;
+    width: 40%; /* Ancho del 40% */
+    height: 205px; /* Altura fija */
+    margin-top: 0px; /* Sin margen superior */
+    margin-left: 210px; /* Margen izquierdo */
+    border: 2px black solid; /* Borde negro */
 }
 
+/* Estilo general para la sección de YouTube Music */
 .youtube-music {
-    text-align: center;
+    text-align: center; /* Centrar el contenido */
 }
 
+/* Estilo para la imagen de YouTube Music */
 img.youtube-music {
-    width: 10%;
-    height: 130px;
-    margin-top: 0px;
-    margin-left: px;
-    border: 2px black solid;
+    width: 10%; /* Ancho reducido */
+    height: 130px; /* Altura fija */
+    margin-top: 0px; /* Sin margen superior */
+    margin-left: px; /* ¡Falta valor aquí! */
+    border: 2px black solid; /* Borde negro */
 }
 
+/* Estilo del pie de página */
 footer {
-    background-color: rgb(0, 0, 0);
-    color: white;
-    clear: both;
-    text-align: center;
-    padding: 10px;
+    background-color: rgb(0, 0, 0); /* Fondo negro */
+    color: white; /* Texto blanco */
+    clear: both; /* Limpiar flotados */
+    text-align: center; /* Centrar el texto */
+    padding: 10px; /* Relleno interno */
 }
 
+/* Estilo de los subtítulos h3 */
 h3 {
-    margin-top: 0px;
-    text-align: center;
+    margin-top: 0px; /* Sin margen superior */
+    text-align: center; /* Alinear texto al centro */
 }
