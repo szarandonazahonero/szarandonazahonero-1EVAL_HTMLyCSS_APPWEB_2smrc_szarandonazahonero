@@ -5,9 +5,9 @@
 
 
 body {
-    background-image: url(/img/Fondo.jpg);
+    background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 header {
@@ -39,7 +39,7 @@ div.menu a {
 }
 
 div.menu a:hover {
-    background-color: rgb(255, 0, 0) !important;
+    background-color: red;
 }
 
 h1 {
@@ -64,6 +64,7 @@ aside {
     width: 20%;
     height: 705px;
     margin-top: 30px;
+    position: sticky;
 }
 
 .foto {

@@ -1,4 +1,4 @@
-/* Tipo de box sizing */
+/* Establece el tipo de box sizing para todos los elementos */
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -6,137 +6,162 @@
 
 /* Fondo de la página */
 body {
-  background-image: url(/img/Fondo.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp); /* Imagen de fondo */
+  background-repeat: no-repeat; /* No repetir la imagen */
+  background-size: 100% 100%; /* Ajustar imagen al 100% del ancho y alto */
+  height: 100vh; /* Altura igual al viewport */
 }
 
+/* Estilo del encabezado */
 header {
-  text-align: center;
-  font-family: sans-serif;
-  letter-spacing: 10px;
-  text-decoration: underline;
-  margin-bottom: 30px;
+  text-align: center; /* Centrar texto */
+  font-family: sans-serif; /* Fuente sans-serif */
+  letter-spacing: 10px; /* Espaciado entre letras */
+  text-decoration: underline; /* Subrayar texto */
+  margin-bottom: 30px; /* Separación inferior */
 }
 
+/* Estilos de navegación */
 nav {
-  background-color: black;
+  background-color: black; /* Fondo negro */
 }
 
+/* Estilo de los divs dentro del nav */
 nav div {
-  display: inline-block;
-  padding: 20px;
-  width: 24%;
-  color: white;
-  text-align: center;
+  display: inline-block; /* Mostrar en línea */
+  padding: 20px; /* Espaciado interno */
+  width: 24%; /* Ancho relativo */
+  color: white; /* Texto blanco */
+  text-align: center; /* Texto centrado */
 }
 
+/* Estilo de los enlaces dentro de un div con clase "menu" */
 div.menu a {
-  background-color: black;
-  color: white;
-  padding: 15px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-variant: small-caps;
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  text-decoration: none; /* Sin subrayado */
+  font-variant: small-caps; /* Texto en pequeñas mayúsculas */
 }
 
+/* Cambio de fondo al pasar el ratón sobre los enlaces */
 div.menu a:hover {
-  background-color: rgb(176, 185, 185) !important;
+  background-color: red; /* Fondo rojo al pasar el mouse */
 }
 
+/* Estilo para todos los h1 */
 h1 {
-  text-align: center;
-  text-transform: capitalize;
+  text-align: center; /* Centrar texto */
+  text-transform: capitalize; /* Poner en mayúscula la primera letra de cada palabra */
 }
 
+/* Estilo de títulos laterales */
 h2.tit-lateral {
-  text-align: center;
+  text-align: center; /* Centrar texto */
 }
 
+/* Estilo general de todos los h2 */
 h2 {
-  color: #2c3e50;
-  border-bottom: 2px solid #2980b9;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
+  color: #2c3e50; /* Color del texto */
+  border-bottom: 2px solid #2980b9; /* Borde inferior azul */
+  margin-bottom: 10px; /* Separación inferior */
+  padding-bottom: 5px; /* Espaciado interno inferior */
 }
 
+/* Estilo del aside */
 aside {
-  background-color: black;
-  color: white;
-  float: left;
-  width: 20%;
-  height: 705px;
-  margin-top: 30px;
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  float: left; /* Alinear a la izquierda */
+  width: 20%; /* Ancho del aside */
+  height: 705px; /* Altura fija */
+  margin-top: 30px; /* Separación superior */
+  position: sticky; /* Mantener posición al hacer scroll */
 }
 
+/* Estilo de la imagen dentro del aside */
 .foto {
-  width: 200px;
-  margin-left: 35px;
-  margin-bottom: 5px;
+  width: 200px; /* Ancho de la imagen */
+  margin-left: 35px; /* Separación a la izquierda */
+  margin-bottom: 5px; /* Separación inferior */
 }
 
+/* Estilo de las listas */
 ul {
-  line-height: 200%;
+  line-height: 200%; /* Altura de línea grande para separar los elementos */
 }
 
+/* Estilo del main */
 main {
-  width: 75%;
-  float: left;
-  margin-left: 50px;
-  padding: 10px;
+  width: 75%; /* Ancho del main */
+  float: left; /* Alinear a la izquierda */
+  margin-left: 50px; /* Separación izquierda */
+  padding: 10px; /* Espaciado interno */
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  background: white;
-  padding: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+/* Contenedor principal */
+.contenedor {
+  height: 95vh; /* Altura del contenedor al 95% del viewport */
 }
 
+/* Estilo de las secciones */
 section {
-  margin-bottom: 30px;
+  margin-bottom: 30px; /* Separación inferior */
 }
 
+/* Estilo de cada ítem */
 .item {
-  margin-bottom: 15px;
+  margin-bottom: 15px; /* Separación inferior */
 }
 
+/* Estilo del tiempo y lugar */
 .time-place {
-  font-weight: bold;
-  color: #555;
+  font-weight: bold; /* Negrita */
+  color: #555; /* Color gris oscuro */
 }
 
+/* Lista de habilidades con grid */
 .skills-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 10px;
-  list-style: none;
-  padding-left: 0;
+  display: grid; /* Diseño en grid */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Columnas adaptables */
+  gap: 10px; /* Separación entre celdas */
+  list-style: none; /* Quitar viñetas */
+  padding-left: 0; /* Sin padding izquierdo */
 }
 
+/* Estilo de cada habilidad */
 .skills-list li {
-  background-color: #ecf0f1;
-  padding: 10px;
-  border-radius: 6px;
-  text-align: center;
+  background-color: #ecf0f1; /* Fondo gris claro */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 6px; /* Bordes redondeados */
+  text-align: center; /* Texto centrado */
 }
 
+/* Layout fijo */
+.layout {
+  position: fixed; /* Posición fija */
+  width: 50%; /* Ancho al 50% */
+  height: 50%; /* Altura al 50% */
+  right: 300px; /* Separación desde la derecha */
+}
+
+/* Estilo del pie de página */
 footer {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  clear: both;
-  text-align: center;
-  padding: 10px;
+  background-color: rgb(0, 0, 0); /* Fondo negro */
+  color: white; /* Texto blanco */
+  clear: both; /* Limpiar flotados */
+  text-align: center; /* Texto centrado */
+  padding: 10px; /* Espaciado interno */
 }
 
+/* Estilo de los h3 */
 h3 {
-  margin-top: 0px;
-  text-align: center;
-  
+  margin-top: 0px; /* Sin margen superior */
+  text-align: center; /* Texto centrado */
 }
 
+/* Clase para centrar el texto */
 .center {
-  text-align: center;
+  text-align: center; /* Texto centrado */
 }

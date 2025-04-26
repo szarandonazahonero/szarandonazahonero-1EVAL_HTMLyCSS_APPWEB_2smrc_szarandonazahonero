@@ -1,109 +1,144 @@
-/* Tipo de box sizing */ 
-*{
+/* Tipo de box sizing para que el padding y border no afecten al tamaño */
+* {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 /* Fondo de la página */
-body{
-    background-image: url(/img/Fondo.jpg);
-    background-repeat:no-repeat;
-    background-size: cover;
+body {
+    background-image: url(/Pagina-web-extraordinaria/imagenes/shutterstock_552746107.webp); /* Imagen de fondo */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-size: 100% 100%; /* Ajustar imagen al 100% de ancho y alto */
 }
 
-header{
+/* Estilos del encabezado principal */
+header {
     text-align: center; /* Texto alineado al centro */
-    font-family: sans-serif;
- /* Fuente del título */
-
- /* Sombra del título */
-    letter-spacing: 10px; /* Espacio de las letras */
-    text-decoration: underline; /* Texto con subrayado */
+    font-family: sans-serif; /* Fuente del título */
+    letter-spacing: 10px; /* Espaciado entre letras */
+    text-decoration: underline; /* Texto subrayado */
 }
-nav{
+
+/* Menú de navegación */
+nav {
     background-color: black; /* Color de fondo del menú de navegación */
 }
-nav div{
-    display: inline-block; /* Letras inclinadas en horizontal */
-    padding: 20px; /* Espacio dentre el contenido y su borde */
-    width: 24%; /* Anchura */
-    color: white; /* Color de la letra */
-    text-align: center; /* Texto alineado al centro */
-}
-div.menu a{
-    background-color: black; /* Color de fondo */
-    color: white; /* Color de la letra */
-    padding: 15px; /* Espacio entre el contenido y su borde */
-    border-radius: 5px; /* Bordes con curvas */
-    text-decoration: none; /* Texto sin subrayado */
-    font-variant: small-caps; /* Variación de la fuente */
-}
-div.menu a:hover{
-    background-color: rgb(176, 185, 185) !important; /* Color de fondo cuando el cursor está encima */
-}
-h1{
-    text-align: center; /* Texto alineado al centro */
-    text-transform: capitalize; /* Primera letra mayúscula de cada palabra */
-}
-h2.tit-lateral{
-    text-align: center; /* Texto alineado al centro */
-}
-aside{
-    background-color: black; /* Color de fondo de la información lateral */
-    color: white; /* Color de la letra */
-    float: left; /* Flotante a la izquierda */
-    width: 20%; /* Anchura */
-    height: 705px; /* Altura */
-    margin-top: 30px; /* Margen de arriba */
-}
-.foto{
-    width: 200px; /* Anchura de la foto */
-    margin-left: 35px; /* Margen de la izquierda */
-    margin-bottom: 5px; /* Margen de abajo */
-}
-ul{
-    line-height: 200%; /* Espacio entre lineas de las listas */
-}
-main{
-    background-color: rgb(255, 255, 255); /* Color de fondo del formulario */
-    float: left; /* Flotante a la izquierda */
-    width: 77%; /* Anchura */
-    height: 1400px; /* Altura */
-    margin-top: 30px; /* Margen de arriba */
-    margin-bottom: 30px; /* Margen de abajo */
-    margin-left: 25px; /* Margen de la izquierda */
-    padding: 20px; /* Espacio entre el contenido y su borde */
-    border: 2px black solid; /* Características del borde */
-    border-radius: 10px; /* Bordes con curvas */
-}
-span{
-    font-weight: bold; /* Letra en negrita */
-    word-spacing: 10px; /* Espacio entre palabras */
+
+/* Elementos individuales dentro del menú */
+nav div {
+    display: inline-block; /* Mostrar los divs en línea */
+    padding: 20px; /* Espaciado interno */
+    width: 24%; /* Ancho del div */
+    color: white; /* Color del texto */
+    text-align: center; /* Texto centrado */
 }
 
-form li{
-    margin: 20px 0px; /* Margen 1º de arriba y abajo 2º de los laterales */
+/* Enlaces dentro del menú */
+div.menu a {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    font-variant: small-caps; /* Letras en minúscula pero en forma de mayúscula */
 }
-fieldset li{
-    list-style: none; /* Sin icono en la lista */
+
+/* Efecto hover en enlaces del menú */
+div.menu a:hover {
+    background-color: red; /* Cambiar fondo a rojo al pasar el mouse */
 }
-fieldset{
-    margin-top: 10px; /* Margen de arriba */
-    border: black 2px solid; /* Características del borde */
-    border-radius: 10px; /* Borde con curvas */
+
+/* Título principal */
+h1 {
+    text-align: center; /* Texto centrado */
+    text-transform: capitalize; /* Primeras letras en mayúscula */
 }
-label{
-    font-weight: bold; /* Letra en negrita */
+
+/* Título lateral */
+h2.tit-lateral {
+    text-align: center; /* Texto centrado */
 }
-h2{
-    margin-bottom: 0px; /* Margen de abajo */
+
+/* Barra lateral */
+aside {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    float: left; /* Flotar a la izquierda */
+    width: 20%; /* Ancho del aside */
+    height: 705px; /* Alto fijo */
+    margin-top: 30px; /* Margen superior */
+    position: sticky; /* Posición fija al hacer scroll */
 }
-.botones{
-    margin-top: 40px; /* Margen de arriba */
+
+/* Imagen dentro del aside */
+.foto {
+    width: 200px; /* Ancho de la imagen */
+    margin-left: 35px; /* Margen izquierdo */
+    margin-bottom: 5px; /* Margen inferior */
 }
-footer{
-    background-color: rgb(0, 0, 0); /* Color de fondo del pie de página */
-    color: white; /* Color de letra */
-    clear: both; /* Ningún objeto flotante a los lados */
-    text-align: center; /* Texto alineado al centro */
-    padding: 10px; /* Espacio entre el contenido y su borde */
+
+/* Listas (ul) */
+ul {
+    line-height: 200%; /* Espaciado entre líneas de los ítems */
+}
+
+/* Sección principal de contenido */
+main {
+    background-color: rgb(255, 255, 255); /* Fondo blanco */
+    float: left; /* Flotar a la izquierda */
+    width: 77%; /* Ancho del main */
+    height: 1400px; /* Alto fijo */
+    margin-top: 30px; /* Margen superior */
+    margin-bottom: 30px; /* Margen inferior */
+    margin-left: 25px; /* Margen izquierdo */
+    padding: 20px; /* Espaciado interno */
+    border: 2px black solid; /* Borde sólido negro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Span general */
+span {
+    font-weight: bold; /* Negrita */
+    word-spacing: 10px; /* Espaciado entre palabras */
+}
+
+/* Elementos de lista dentro de formularios */
+form li {
+    margin: 20px 0px; /* Margen arriba/abajo 20px, laterales 0px */
+}
+
+/* Elementos de lista dentro de fieldsets */
+fieldset li {
+    list-style: none; /* Quitar viñetas */
+}
+
+/* Agrupación de campos en formularios */
+fieldset {
+    margin-top: 10px; /* Margen superior */
+    border: black 2px solid; /* Borde sólido negro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Etiquetas de los formularios */
+label {
+    font-weight: bold; /* Negrita */
+}
+
+/* Títulos secundarios */
+h2 {
+    margin-bottom: 0px; /* Sin margen inferior */
+}
+
+/* Botones dentro de los formularios */
+.botones {
+    margin-top: 40px; /* Margen superior */
+}
+
+/* Pie de página */
+footer {
+    background-color: rgb(0, 0, 0); /* Fondo negro */
+    color: white; /* Texto blanco */
+    clear: both; /* Quitar floats anteriores */
+    text-align: center; /* Texto centrado */
+    padding: 10px; /* Espaciado interno */
 }
