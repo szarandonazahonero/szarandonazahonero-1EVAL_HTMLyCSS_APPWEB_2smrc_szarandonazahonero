@@ -11,14 +11,6 @@ body {
     background-size: 100% 100%; /* Imagen ajustada al 100% del ancho y alto */
 }
 
-/* Estilo del header */
-header {
-    text-align: center; /* Alinear texto al centro */
-    font-family: sans-serif; /* Fuente sans-serif */
-    letter-spacing: 10px; /* Espaciado entre letras */
-    text-decoration: underline; /* Subrayado */
-}
-
 /* Fondo del menú de navegación */
 nav {
     background-color: black; /* Color negro de fondo */
