@@ -145,7 +145,7 @@ section {
 }
 
 /* Estilos video */
-video {
+iframe {
   width: 50%;
   margin: 0px 350px;
 }
